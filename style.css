@@ -1,0 +1,126 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background: #f8fafc;
+}
+.p{
+    text-align: justify;
+}
+.hero-bg {
+    background-image: url(./images/img1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.navbar-nav .nav-link {
+    color: #444 ;
+    border-radius: 0.75rem;
+  }
+
+  .navbar-nav .nav-link:hover {
+    background: linear-gradient(90deg,#8B5CF622,#F59E0B22);
+    color: #8B5CF6 !important;
+  }
+  .btn-gradient:hover {
+    background: linear-gradient(90deg,#F59E0B,#8B5CF6) !important;
+    color: #fff !important;
+    box-shadow: 0 4px 16px rgba(139,92,246,0.12);
+  }
+.gradient-bg {
+    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+}
+
+.text-gradient {
+    background: linear-gradient(135deg, #8B5CF6, #F59E0B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.category-image {
+    transition: transform 0.3s ease;
+}
+
+.category-card:hover .category-image {
+    transform: scale(1.1);
+}
+
+.portfolio-hover,
+.service-card,
+.category-card,
+.team-card,
+.testimonial-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.portfolio-hover:hover,
+.service-card:hover,
+.category-card:hover,
+.team-card:hover,
+.testimonial-card:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 8px 32px rgba(139, 92, 246, 0.12);
+}
+.price:hover .price-hover{
+    animation:headShake 2s;
+}
+.portfolio-hover .overlay {
+    opacity: 0;
+    transition: opacity .3s;
+}
+
+.portfolio-hover:hover .overlay {
+    opacity: 1 !important;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 1000;
+    display: none;
+}
+
+
+.navbar-brand span {
+    color: #8B5CF6;
+}
+
+
+
+.glass {
+    backdrop-filter: blur(8px);
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 8px 32px rgba(139, 92, 246, 0.08);
+}
+
+
+
+
+
+
+
+
+.box:hover,.choose:hover .box1 {
+  animation: hinge 2s;
+}
+
+
+@media (max-width: 767px) {
+    .display-3 {
+        font-size: 2.2rem;
+    }
+
+    .display-5 {
+        font-size: 1.5rem;
+    }
+
+    .hero-bg {
+        background-attachment: scroll;
+    }
+}
+
+
+ 
+
