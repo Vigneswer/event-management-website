@@ -2,6 +2,9 @@ body {
     font-family: 'Inter', sans-serif;
     background: #f8fafc;
 }
+html {
+  scroll-behavior: smooth;
+}
 .p{
     text-align: justify;
 }
@@ -11,6 +14,7 @@ body {
     background-position: center;
     background-attachment: fixed;
 }
+
 
 
 .navbar-nav .nav-link {
